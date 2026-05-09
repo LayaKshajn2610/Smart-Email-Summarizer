@@ -297,6 +297,12 @@ Generates a concise summary using BART model
 
 > The repository includes `requirements.txt` and `streamlit.toml` for smooth deployment.
 
+### Automatic updates on GitHub + Streamlit
+
+Once your repo is connected to Streamlit Cloud, any changes pushed to `main` will automatically trigger a redeploy on Streamlit Cloud.
+
+This repo also includes a GitHub Actions workflow at `.github/workflows/python-ci.yml` that runs on every push and pull request to `main`.
+
 ### Deploy on Other Platforms
 
 **Heroku** or **Google Cloud Run**: Create a `Procfile`:
