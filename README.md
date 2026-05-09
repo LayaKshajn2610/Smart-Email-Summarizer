@@ -295,6 +295,8 @@ Generates a concise summary using BART model
 4. Select your repository and main file (`app.py`)
 5. Click "Deploy"
 
+> The repository includes `requirements.txt` and `streamlit.toml` for smooth deployment.
+
 ### Deploy on Other Platforms
 
 **Heroku** or **Google Cloud Run**: Create a `Procfile`:
